@@ -15,6 +15,9 @@ This is the easiest test. Please take your time.
 * [Check](https://www.elegantthemes.com/blog/tips-tricks/how-to-fix-error-establishing-a-database-connection-in-wordpress) the DB connectivity, you could ask for assistance if it's really hard to set up
 * Then, install WordPress and ask for checking
 
+## Post Type
+Create a post type with cpt ui ?
+
 ## Theme creation
 * Add the [basic files](https://codex.wordpress.org/Theme_Development#Basic_Templates)
 * Complete the style's [header](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/)
