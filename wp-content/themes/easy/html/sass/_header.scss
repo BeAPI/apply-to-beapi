@@ -1,0 +1,264 @@
+#header{
+  text-align: center;  
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+  height: 100%;
+  min-height: 570px;
+  background: $dark-color-1; 
+}
+
+#header .container,
+#header .row{
+  position: relative;
+  height: 100%;
+  padding: 0 30px; 
+  min-height: 520px;
+}
+
+#header{
+  .header-wrapper{
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-height: 550px; 
+  }
+
+  .header-content{
+    vertical-align: middle;
+    display: table-cell;
+  }
+}
+
+/* rotate-link */
+
+.rotate-text{
+  font-size: $small-fs;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+
+  -webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+     -moz-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+       -o-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+      -ms-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+          transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+}
+
+.rotate-text a{
+  color: $white;
+  position: relative;
+  display: inline-block;
+  letter-spacing: $big-ls;
+}
+
+.rotate-text a:before,
+.rotate-text a:after{
+  content: '';
+  width:10px;
+  height: 1px;
+  background: $white;
+  position: absolute;
+  left: -25px;
+  top: 8px;
+  @include transition(left,0.3s);
+}
+.rotate-text a:after{
+  left: auto;
+  right: -25px;
+  @include transition(right,0.3s);
+}
+
+.rotate-text a:hover:before {
+  left: -20px;
+  @include transition(left,0.3s);
+}
+.rotate-text a:hover:after {
+  right: -20px;
+  @include transition(right,0.3s);
+}
+
+/* hello-block */
+
+.header-name{
+  color: $white;
+  font-size: $h2;
+  margin-top: -20px;
+}
+
+.hello {
+  font-size: 230px;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  position: relative; 
+}
+
+.header-text{
+  color: $white;
+  font-size: $middle-1-fs;
+  line-height: 35px;
+}
+.header-text span{
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 4px;
+  background: $main-font-color;
+  margin: 0 3px;
+  font-size: 15px;
+}
+
+.hmb-wrapper{
+  position: fixed; 
+  right: 0;
+  top: 0;
+  z-index: 9999!important;
+}
+
+#menu {  position: relative; }
+
+.nav-button {
+  display: block;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  margin: 15px 25px 15px 0;
+  padding: 10px;
+  background: $dark-color-1;
+}
+
+.nav-button-side{
+  margin: 15px 30px 15px 0;
+}
+
+.nav-button-part {
+  display: block;
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  top: 50%;
+  background: $white;
+
+  -webkit-transition: all ease 0.3s;
+     -moz-transition: all ease 0.3s;
+       -o-transition: all ease 0.3s;
+          transition: all ease 0.3s;
+}
+
+.nav-button-part-1 { margin-top: -8px; }
+.nav-button-part-2 { margin-top: -1px; }
+.nav-button-part-3 { margin-top: 6px; }
+
+.nav-open .nav-button-part-1 {
+  margin-top: -1px;
+
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.nav-open .nav-button-part-2 {
+    display: none;
+}
+.nav-open .nav-button-part-3 {
+  margin-top: -1px;
+
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#action {
+  width: 60px;
+  margin-left: -30px;
+  height: 30px;
+  background: url(../images/arrow.png) no-repeat center bottom;
+  background-size: 30px 30px;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  opacity: 0.5;
+
+  @include transition(opacity,0.3s);
+}
+#action:hover{
+  opacity: 1;
+  @include transition(opacity,0.3s);
+}
+
+/* portfolio */
+.portfolio{
+  min-height: 75px!important; 
+  height: 75px!important; 
+}
+.portfolio:after{
+  display: none;
+}
+
+.portfolio-title{
+  display: inline-block;
+  color: $white;
+  font-size: $middle-1-fs;
+  letter-spacing: $big-ls;
+  text-transform: uppercase;
+  line-height: 74px;
+}
+
+.back-link{
+  position: absolute;
+  left: 25px;
+  top: 28px;
+  font-size: 17px;
+}
+.back-link a{
+  color: $white;
+  border: 2px solid $white;
+  padding: 5px 7px;
+}
+
+/* particles */
+#header .particles {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .rotate-text{
+    display: none; 
+  }
+  .hello,
+  svg {
+    font-size: 180px;
+  }
+}
+
+@media (max-width: 590px) {
+  .hello,
+  svg {
+    font-size: 9em;
+  }
+
+  h1{
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 400px) {
+  .hello,
+  svg {
+    font-size: 6em;
+  }
+
+  br{
+    display: none;
+  }
+}

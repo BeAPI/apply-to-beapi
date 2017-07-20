@@ -1,0 +1,55 @@
+h1, h2, h3, h4, h5, h6, p{ margin: 0; }
+h1, h2, h3, h4, h5, h6{
+	font-family: $main-font-family;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 51px;
+	font-family: Raleway!important;
+	font-weight: 900;
+	line-height: 84px;
+	color: $main-font-color;
+}
+
+h2{
+	font-size: $h2;
+	line-height: 34px;
+	color: #414143;
+	font-weight: 700;
+	padding: 16px 0;
+}
+
+h3{
+	font-size: $h3;
+	line-height: 25px;
+	color: #414143;
+	font-weight: 700;
+	text-transform: none;
+	padding: 10px 0 0;
+}
+
+h4{
+	font-size: $middle-1-fs;
+	line-height: 34px;
+	color: $dark-color-1;
+	font-weight: 700;
+}
+
+p{
+	font-size: $middle-2-fs;
+	line-height: $middle-2-lh;
+	margin: $small-distance 0;
+}
+
+.title-p{
+  margin: 0px 0;
+  line-height: $middle-lh;
+}
+
+.color-white{
+	color: $white;
+}
+.header-main .dark-background{
+	background: $dark-color-1;
+}

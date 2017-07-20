@@ -1,0 +1,46 @@
+/* font-family */
+$main-font-family: "Montserrat", arial, sans-serif; 
+
+/* font-size */
+$middle-fs: 20px;
+$middle-1-fs: 17px;
+$middle-2-fs: 14px;
+$small-fs: 12px;
+$small-1-fs: 10px;
+
+$hello: 230px;
+$h2: 28px;
+$h3: 16px;
+
+$counter: 38px;
+
+/* line-height */
+$middle-lh: 24px;
+$middle-2-lh: 30px;
+ 
+//letter-spacing */
+$big-ls: 0.11em;
+
+/* colors */
+$main-font-color: #414143;
+$white: #fff;
+$black: #000;
+
+$dark-color-1: #15141a;
+$light-color-1: #f7f7f7;
+
+$green: #57cc65;
+$red: rgba(190,46,27,1);
+
+/* margin & padding */
+$big-distance: 80px;
+$middle-distance: 50px;
+$normal-distance: 30px;
+$small-distance: 20px;
+
+@mixin transition($param, $sec) {
+  -webkit-transition: $param $sec ease-in-out;
+     -moz-transition: $param $sec ease-in-out;
+       -o-transition: $param $sec ease-in-out;
+          transition: $param $sec ease-in-out;
+}

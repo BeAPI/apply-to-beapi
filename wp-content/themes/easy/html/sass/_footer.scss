@@ -1,0 +1,106 @@
+footer{
+	background: $dark-color-1;
+	color: $white;
+	text-align: center;
+}
+footer .row{
+	padding: $middle-distance 0;
+}
+
+.footer-wrapper{
+	width: 100%;
+	position: relative;
+	display: table;
+}
+
+.white-link{
+	color: $white;
+}
+
+.footer-name{
+	text-align: center;
+	display: inline-block;
+	float: none;
+}
+.footer-name span{
+	font-size: $middle-fs;
+	font-weight: 700;
+}
+
+.footer-address{
+	font-size: $small-1-fs;
+	line-height: $middle-lh;
+	letter-spacing: $big-ls;
+	margin-top: $small-distance;
+}
+
+.footer-socials,
+.footer-info{
+	text-align: right;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(0%, -50%);
+}
+
+.footer-info{
+	left: 0;
+	text-align: left;
+}
+
+.socials{
+	float: right;
+}
+.socials li{
+	float: left;
+}
+.socials li a,
+.footer-info i{
+	color: $white;
+	font-size: $middle-1-fs;
+	margin-left: 14px;
+}
+
+.footer-info li{
+	line-height: $middle-2-lh;
+	font-size: $middle-2-fs;
+}
+.footer-info i{
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+.overflowy-hidden{
+  position: relative!important;
+  overflow-y: hidden;
+}
+
+.overflowy-auto{
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  footer .row{
+	padding: $small-distance 0;
+  }
+
+  .footer-info,
+  .footer-socials{
+  	position: relative;
+  	width: 100%;
+  	text-align: center;
+  }
+
+  .footer-info{
+  	margin-top: 50px;
+  }
+
+  .socials{
+	float: none;
+	display: inline-block;
+	margin-top: 50px;
+  }
+  .socials li:first-child a{
+  	margin-left: 0;
+  }
+}

@@ -1,0 +1,213 @@
+.side-cont{
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+}
+
+.side-title{
+  font-size: $middle-fs;
+  color: $main-font-color;
+  line-height: $middle-2-lh;
+}
+
+.sidenav {
+  position: absolute;
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding-top: 95px;
+  border-spacing: 0;
+  background: $light-color-1;
+  
+  -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+       -o-transition: 0.5s;
+          transition: 0.5s;
+}
+
+.sidenavst::-webkit-scrollbar {
+  display: none !important;}
+
+.sidenav footer{
+  background: none;
+  color: $main-font-color;
+}
+.sidenav .white-link,
+.sidenav .socials li a,
+.sidenav .footer-info i{
+  color: $main-font-color;
+
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+
+.sidenav .footer-info:hover,
+.sidenav .socials li a:hover{
+  color: $black;
+
+  -webkit-transition: color .3s;
+  -moz-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s;
+}
+
+.sidenav::-webkit-scrollbar { 
+    display: none!important; 
+}
+
+/* Skill bar */
+.skill-title{
+  text-transform: uppercase;
+  color: $black;
+  letter-spacing: $big-ls;
+  font-size: $middle-2-fs;
+  margin: 35px 0 15px;
+  font-weight: 700;
+}
+
+.skillbar {
+  position: relative;
+  display :block;
+  margin-bottom: 45px;
+  width: 100%;
+  background: #eee;
+  height: 4px;
+
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: $small-1-fs;
+  letter-spacing: $big-ls;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.skillbar-title em { color: #626262; }
+
+.skill-time {
+  display: inline-block;
+  color: #949494;
+}
+
+.skillbar-title .sk-title {
+  display: block;
+  padding: 0;
+  height: 4px;
+  line-height: 35px;
+}
+
+.skillbar-bar {
+  height: 4px;
+  width: 0px;
+}
+
+.skill-bar-percent {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  font-size: 11px;
+  height: 4px;
+  line-height: 35px;
+  color: $white;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* my-adv */
+.my-adv{
+  padding: 0 $normal-distance;
+  text-align: center;
+  margin: 40px auto 20px;
+}
+.my-adv .row{
+  background: #fff;
+  padding: $small-distance;
+}
+.my-adv-border{
+  border: 2px solid $light-color-1;
+  width: 100%;
+  float: left;
+}
+
+.adv-title{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $dark-color-1;
+  margin: 10px 0;
+  font-size: $middle-2-fs;
+  letter-spacing: $big-ls;
+  line-height: $middle-lh;
+}
+.adv-text{
+  color: #626262;
+  font-size: $middle-2-fs;
+  margin-bottom: $small-distance;
+  line-height: $middle-lh;
+  font-weight: 400;
+}
+.my-adv .fa{
+  font-size: $middle-fs;
+  margin: 10px 0 0;
+  padding: 10px;
+  color: #626262;
+}
+
+/* demo-2 */
+.demo-2-side-name{
+  background: $dark-color-1;
+  padding: 20px 40px 30px;
+  text-align: center;
+  position: relative;
+}
+.demo-2-side-name:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid $light-color-1;
+}
+.demo-2-side-name .side-title,
+.demo-2-side-name h1{
+  color: $white;
+}
+
+.demo-2.my-adv{
+  margin-top: 80px!important;
+}
+.demo-2 .my-adv-border{
+  background: $light-color-1;
+  margin: -5px 0;
+}
+.demo-2.my-adv .row{
+  background: $white;
+  padding: 15px 0;
+}
+.demo-2 .my-adv-block{
+  margin: 20px 0;
+}

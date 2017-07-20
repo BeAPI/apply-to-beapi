@@ -1,0 +1,46 @@
+.counters .container{
+	text-align: center;
+	padding: 0px $normal-distance;
+}
+.counters .row{
+	padding: $middle-distance 0;
+	border: 2px solid $light-color-1;
+}
+
+.counters .counter{
+	border-left: 2px solid $light-color-1;
+}
+.counters .counter:first-child{
+	border: none;
+}
+
+.counter-value{
+	font-weight: 700;
+	color: $main-font-color;
+	font-size: $counter;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.counter-text{
+	font-size: $small-fs;
+	letter-spacing: $big-ls;
+	margin-top: $small-distance;
+	display: inline-block;	
+} 
+
+@media (max-width: 992px) {
+  .counters .counter{
+	margin-bottom: 40px;
+  }
+  .counters.demo-2 .counter:nth-child(3){
+	border: none;
+  }
+  .counters .counter:nth-child(3){
+    border-left: none; 
+  }
+  .counters .row {
+	padding: 50px 0 20px;
+  }
+}
