@@ -1,5 +1,5 @@
 # Apply To BeAPI
-This is a project in order to check candidate's WordPress level. 
+This is a project in order to check candidate's WordPress level during the recruiting process.
 
 # Purpose
 There is no pressure ! just a simple way to highlight a candidate WordPress knowledge. It's also mostly a way see how candidate is coding, organizing, using different tools, etc.
