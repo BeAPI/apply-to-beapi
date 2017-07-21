@@ -57,9 +57,6 @@ Before that ask for checking in order to see what has been done.
 * [Check](https://www.elegantthemes.com/blog/tips-tricks/how-to-fix-error-establishing-a-database-connection-in-wordpress) the DB connectivity, you could ask for assistance if it's really hard to set up
 * Then, install WordPress and ask for checking
 
-## Post Type
-Create a post type with cpt ui ?
-
 ## Theme creation
 * Add the [basic files](https://codex.wordpress.org/Theme_Development#Basic_Templates)
 * Complete the style's [header](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/)
@@ -84,7 +81,7 @@ Now your html has been splitted out, you must dynamize it, that means replacing 
 Do it on header and footer with [`get_stylesheet_directory_uri()`](https://codex.wordpress.org/Function_Reference/get_stylesheet_directory_uri), then ask for checking
 
 ### WP_Query
-On homepage display the last 6 projects.
-* Use the [wp_query](http://www.geekpress.fr/wp-query-creez-des-requetes-personnalisees-dans-vos-themes-wordpress/) to get the 6th last (date) projects
+On homepage display the last 6 news.
+* Use the [wp_query](http://www.geekpress.fr/wp-query-creez-des-requetes-personnalisees-dans-vos-themes-wordpress/) to get the 6th last (date) news
 * Create a [loop](https://code.tutsplus.com/tutorials/a-beginners-guide-to-the-wordpress-loop--wp-20241) for display purpose
 * Bonus, try to use a loop template foreach item with `get_template_part()` wp function
