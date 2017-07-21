@@ -1,13 +1,55 @@
 # Easy Test
-This is the easiest test. Please take your time.
-
-# Steps
+This is the easiest test. Please take your time, it's just for evaluating your level in order to mentor you the more beneficial way during your internship :)
 
 ## Git
+Before doing anything we need to have a copy of your answers. We use git to see how you can use it, name your commits, etc.
 * Maybe [create](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjxjo7U35jVAhWBD8AKHfnLAyQQFgg5MAM&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig) your Github Account
 * [Fork](https://help.github.com/articles/fork-a-repo/) the project, then clone yours to work into
 * Create a branch and name it as you want
+* You could whatever software you want to ease the process : smartgit, git kraken, sourcetree, etc
 * Try to make one commit and push it, then ask for contribution
+
+# Dig into PHP
+
+## Quiz
+1. https://www.alsacreations.com/quiz/lire/12-PHP-debutant
+2. https://www.alsacreations.com/quiz/lire/13-PHP-moyen
+
+## Exercise
+Into the folder wp-content/themes/easy/php-exercice/`, write your answers as you want : one file, multiple files, one main file calling the others, etc.
+
+Note that there will not be any "compilation" so it's not worth to make it work. A text file would be fine ! 
+
+**Reminder : make as much commits as possible means one foreach answer, it's important.**
+
+### Display
+Try to echo these following cases :
+
+* A string (whatever you want)
+* A string with numbers
+* A string with special characters
+* Conditionally change the string with a true/false condition
+* A concatenation of theses 3 different strings
+
+### Loops
+* With a `while` loop, display int from 1 to 10
+* Same as above but with a `for` loop
+* Wrap the while loop inside a function for reuse, then call it
+* Modify this function behaviour to allow changing the max value with a N. Call it with a var of 20
+
+### Arrays
+Here we are especially working with int arrays. We will start from the principle that we are working with candidate's notes of the year.
+
+Write & wrap your code inside functions for the following cases :
+* Display all the elements from an array
+* Guess the overage value from a given array
+* Find out how many values are equal or superior to 10
+* Check if the note of 20 is present
+* Get the best note
+
+# WordPress is your best Friend
+You are done for the first part, now let's got to the WordPress part !
+Before that ask for checking in order to see what has been done.
 
 ## Environment
 * Set up your environment with mamp, local by flywheel or whatever
