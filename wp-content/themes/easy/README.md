@@ -12,7 +12,7 @@ Before doing anything we need to have a copy of your answers. We use git to see 
 # Dig into PHP
 
 ## Exercise
-Into the folder wp-content/themes/easy/php-exercice/`, write your answers as you want : one file, multiple files, one main file calling the others, etc.
+Into the folder `wp-content/themes/easy/php-exercice/`, write your answers as you want : one file, multiple files, one main file calling the others, etc.
 
 Note that there will not be any "compilation" so it's not worth to make it work. A text file would be fine ! 
 
