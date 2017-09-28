@@ -12,7 +12,7 @@ Before doing anything we need to have a copy of your answers. We use git to see 
 # Dig into PHP
 
 ## Exercise
-Into the folder `wp-content/themes/easy/php-exercice/`, write your answers as you want : one file, multiple files, one main file calling the others, etc.
+For the next questions write all your answers in the file `wp-content/themes/easy/php-exercice/answers.php`
 
 Note that there will not be any "compilation" so it's not worth to make it work. A text file would be fine ! 
 
@@ -28,20 +28,21 @@ Try to echo these following cases :
 * A concatenation of theses 3 different strings
 
 ### Loops
-* With a `while` loop, display int from 1 to 10
-* Same as above but with a `for` loop
-* Wrap the while loop inside a function for reuse, then call it
-* Modify this function behaviour to allow changing the max value with a N. Call it with a var of 20
+* Display all numbers between 1 and 10 (including 10) using a `while` loop
+* Same as before but with a `for` loop
+* Wrap the while loop inside a function and call it
+* Write a function that take a parameter `$max` and display all values from 1 to `$max` using a `while` loop. Call it with a value of 20
 
 ### Arrays
-Here we are especially working with arrays of integers. We will start from the principle that we are working with candidate's notes of the year.
+Given this array `array(5, 12, 10, 21, 2, 6, 8, 20, 14, 9, 12)`
 
 Write & wrap your code inside functions for the following cases :
-* Display all the elements from an array
-* Find the average value from a given array
-* Find out how many values are equal or superior to 10
-* Check if the note of 20 is present
-* Get the best note
+
+* Display all the elements of the array
+* Find the average value
+* Find out how many values are equal or greater than 10
+* Check if the note of 20 is present in the array
+* Get the best note from the array
 
 # WordPress is your best Friend
 You are done for the first part, now let's got to the WordPress part !
