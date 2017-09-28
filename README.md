@@ -10,7 +10,7 @@ There are 3 levels :
 * Hard
 
 # How To Do
-Each level is represented by a theme inside `wp-content/themes/` folder where there is a readme which describes you what to do.
+Each level is represented by a theme inside `wp-content/themes/` folder where there is a readme which describes what you have to do.
 
 Please make a fork and work inside your project with as much commits as possible to describe what you are doing.
 
