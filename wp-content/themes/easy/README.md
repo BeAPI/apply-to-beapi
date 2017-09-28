@@ -41,8 +41,8 @@ Write & wrap your code inside functions for the following cases :
 * Display all the elements of the array
 * Find the average value
 * Find out how many values are equal or greater than 10
-* Check if the note of 20 is present in the array
-* Get the best note from the array
+* Check if the value 20 is present in the array
+* Get the greatest value of the array
 
 # WordPress is your best Friend
 You are done for the first part, now let's got to the WordPress part !
