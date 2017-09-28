@@ -34,11 +34,11 @@ Try to echo these following cases :
 * Modify this function behaviour to allow changing the max value with a N. Call it with a var of 20
 
 ### Arrays
-Here we are especially working with int arrays. We will start from the principle that we are working with candidate's notes of the year.
+Here we are especially working with arrays of integers. We will start from the principle that we are working with candidate's notes of the year.
 
 Write & wrap your code inside functions for the following cases :
 * Display all the elements from an array
-* Guess the overage value from a given array
+* Find the average value from a given array
 * Find out how many values are equal or superior to 10
 * Check if the note of 20 is present
 * Get the best note
