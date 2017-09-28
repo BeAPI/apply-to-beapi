@@ -1,7 +1,7 @@
 # Easy Test
 This is the easiest test. Please take your time, it's just for evaluating your level in order to mentor you the more beneficial way during your internship :)
 
-## Git
+## Git (if you can)
 Before doing anything we need to have a copy of your answers. We use git to see how you can use it, name your commits, etc.
 * Maybe [create](https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjxjo7U35jVAhWBD8AKHfnLAyQQFgg5MAM&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig) your Github Account
 * [Fork](https://help.github.com/articles/fork-a-repo/) the project, then clone yours to work into
