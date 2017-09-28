@@ -11,12 +11,6 @@ Before doing anything we need to have a copy of your answers. We use git to see 
 
 # Dig into PHP
 
-## Quiz
-Make for each Quiz a screenshot into screenshots' folder ( `themes/easy/screenshots/` ).
-
-1. https://www.alsacreations.com/quiz/lire/12-PHP-debutant
-2. https://www.alsacreations.com/quiz/lire/13-PHP-moyen
-
 ## Exercise
 Into the folder wp-content/themes/easy/php-exercice/`, write your answers as you want : one file, multiple files, one main file calling the others, etc.
 
@@ -52,12 +46,6 @@ Write & wrap your code inside functions for the following cases :
 # WordPress is your best Friend
 You are done for the first part, now let's got to the WordPress part !
 Before that ask for checking in order to see what has been done.
-
-## Environment
-* Set up your environment with mamp, local by flywheel or whatever
-* Edit the [wp-config.php file](https://codex.wordpress.org/Editing_wp-config.php) to add your DB credentials
-* [Check](https://www.elegantthemes.com/blog/tips-tricks/how-to-fix-error-establishing-a-database-connection-in-wordpress) the DB connectivity.
-* Then, install WordPress
 
 ## Theme creation
 * Add the [basic files](https://codex.wordpress.org/Theme_Development#Basic_Templates)
