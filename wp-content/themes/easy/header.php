@@ -1,12 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie" lang="en"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<html>
 <head>
-	<!-- title -->
-	<meta charset="utf-8">
-	<title>Vincent - Personal Portfolio Template</title>
-
-	<!-- description -->
+	<title><?php wp_title( '|from', true , 'right') ?><?php bloginfo( 'name' ) ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 	<meta name="author" content="Pixelshow">
 	<meta name="description" content="Personal Portfolio Template">
@@ -20,22 +15,9 @@
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
-
-	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-	 <!-- Javascript libraries -->
-	<script type="text/javascript" src="js/modernizr.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-
-	<!--[if IE]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
+	<?php wp_head() ?>
 </head>
-<body>
+<body <?php body_class( ) ?>>
 	<!-- preloader -->
 	<div id="preloader"></div>
 	<!-- sidebar -->
@@ -158,112 +140,3 @@
 			</footer>
 		</div>
 	</div>
-
-	<!-- main -->
-	<div id="main">
-		<!-- header -->
-		<div id="header" class="portfolio">
-			<div class="container">
-				<div class="row">
-
-					<div class="hmb-wrapper">
-						<span>
-							<span id="menu">
-							  <a id="nav-open" class="nav-button">
-							    <span class="nav-button-part nav-button-part-1"></span>
-							    <span class="nav-button-part nav-button-part-2"></span>
-							    <span class="nav-button-part nav-button-part-3"></span>
-							  </a>
-							</span>
-						</span>
-					</div>
-
-					<div class="portfolio-title">Portfolio</div>
-
-				</div>
-			</div>
-
-			<div class="back-link"><a href="demo-1.html"><i class="fa fa-long-arrow-left"></i></a></div>
-		</div>
-
-		<!-- gallery -->
-		<div class="gallery" id="gallery">
-			<div class="container">
-				<div class="row center-block">
-
-					<div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-						<h2>Work hard. Dream big.</h2>
-						<p class="title-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Iste ratione molestias magni.</p>
-						<p class="text-spacing">It’s not a job, It’s a life.</p>
-					</div>
-
-					<div class="gallery-wrapper	col-sm-12 col-xs-12">
-						<!-- portfolio-row-1 -->
-						<div class="portfolio-block">
-							<ul class="work-list">
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 1."><img src="images/380x380.jpg" alt=""></a></li>
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 2."><img src="images/380x380.jpg" alt=""></a></li>
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 3."><img src="images/380x380.jpg" alt=""></a></li>
-							</ul>
-						</div>
-
-
-						<!-- portfolio-row-2 -->
-						<div class="portfolio-block ">
-							<ul class="work-list">
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 4."><img src="images/380x380.jpg" alt=""></a></li>
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 5."><img src="images/380x380.jpg" alt=""></a></li>
-								<li><a class ="lightbox" href="images/1000x1000.jpg" title="Project 6."><img src="images/380x380.jpg" alt=""></a></li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-
-					<div class="footer-wrapper">
-
-						<div class="footer-info col-sm-4 col-xs-12">
-							<ul>
-								<li><a href="tel:+9145632973" class="white-link"><i class="fa fa-phone-square"></i>+9145632973</a></li>
-								<li><a href="mailto:work@jamesvincent.me" class="white-link"><i class="fa fa-google"></i>work@jamesvincent.me</a></li>
-							</ul>
-						</div>
-
-						<div class="footer-name col-sm-4 col-xs-12">
-							<span>James Vincent</span>
-							<div class="footer-address">
-								James Vincent, D12/3 <br>
-								Kharkov, Ukraine
-							</div>
-						</div>
-
-						<div class="footer-socials col-sm-4 col-xs-12">
-							<ul class="socials">
-								<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance-square"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-							</ul>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-		</footer>
-	</div>
-
-	<!-- javascript -->
-	<script src="js/plugins.js"></script>
-	<script src="js/smooth-scroll.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/main.js"></script>
-</body>
-</html>
